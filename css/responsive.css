@@ -30,9 +30,8 @@
     justify-content: space-between;
     padding: 16px 0px;
   }
-
-  .nav-sm img {
-    margin-left: 16px;
+  .logo-sm{
+    width: 150px;
   }
 
   .off-btn {
@@ -47,7 +46,7 @@
     font-size: 22px;
     line-height: 20px;
     height: 40px;
-    margin-right: 16px;
+    margin-right: 0px;
   }
 
   .nav-sm h5 img {

@@ -60,7 +60,7 @@
         </div>
         <!-- nav-bar sm device -->
         <div class="d-lg-flex nav-sm d-xl-none px-3" id="sticky-bar">
-            <img src="images/Logo.svg" alt="">
+            <img src="images/Logo.svg" alt="" class="logo-sm">
             <!-- offcanvas start -->
            <div class="">
             <button class="off-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
@@ -75,7 +75,7 @@
             <div class="w-lg-50 w-75 offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
                 aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
-                    <h5 id="offcanvasExampleLabel"><img src="images/Logo.svg" alt=""></h5>
+                    <h5 id="offcanvasExampleLabel"><img src="images/Logo.svg" alt="" ></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body padding-24px">
@@ -2560,10 +2560,11 @@
     var dark = document.getElementById("eye");
     dark.onclick = function(){
         document.body.classList.toggle("dark-mode")
+
     }
     var dark2 = document.getElementById("eye2");
-    dark.onclick = function(){
-        document.body.classList.toggle("dark-mode2")
+    dark2.onclick = function(){
+        document.body.classList.toggle("dark-mode")
     }
 </script>
 
