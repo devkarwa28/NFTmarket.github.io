@@ -590,7 +590,9 @@
   .sec7-btn2 {
     padding: 16px 15px;
   }
-
+  .sec7-right-content{
+    height: 368px;
+  }
   .sm-none {
     display: none;
   }
@@ -1035,6 +1037,10 @@
     margin-bottom: 32px;
     margin-top: 32px;
   }
+  .sec7-right-content{
+    height: 368px;
+  }
+
 
   .footer1-content {
     border: 1px solid #e2e2ed;

@@ -1212,7 +1212,7 @@ margin-top: 90px;
   padding-top: 17px;
 }
 .sec7-right-content{
-  background: url(../images/giphy-unscreen.gif);
+  background: url(../images/giphy-unscreen.gif)center no-repeat;
   height: 100%;
   width: 100%;
   background-size: cover;
