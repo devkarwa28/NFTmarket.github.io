@@ -44,6 +44,9 @@ li{
 header{
   background-color: var(--main-bg-color);
 }
+.eye-btn2{
+  color: var(--main-bg-color1);
+}
 .logo {
   margin-top: 42px;
   margin-left: 362px;
