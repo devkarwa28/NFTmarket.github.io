@@ -488,7 +488,7 @@ nav ul li:last-child{
 }
 .sec3-card1 {
   margin-top: 25px;
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   border-radius: 20px;
   overflow: hidden;
 }
@@ -620,7 +620,7 @@ nav ul li:last-child{
   background: var(--gradient2);
   width: 100%;
   height: 843.66px;
-  border: var(--border-sec3-card2);
+  border: 2px solid var(--border);
   border-top: 0px;
   border-radius: 0px 0px 20px 20px;
 }
@@ -684,7 +684,7 @@ nav ul li:last-child{
   color: #ffffff;
 }
 .sec3-card3 {
-  border: 1px solid #e2e2ed;
+  border: 2px solid var(--border);
   width: 100%;
   border-radius: 20px;
   margin-top: 25px;
@@ -985,6 +985,13 @@ text-align: center;
 letter-spacing: 0.2px;
 color: #7780A1;
 background-color: var(--main-bg-color);
+}
+.sec5-main-btns button:hover{
+  background: linear-gradient(104.42deg, #4745d0 0%, #2a27c9 60.23%);
+  box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.1),
+    inset 4px 4px 4px rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px #FFFFFF;
 }
 .sec5-card-content .main-img{
   width: 196px;
