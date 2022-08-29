@@ -35,6 +35,12 @@
 </head>
 
 <body>
+    <!-- Loader started -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <!-- Loader ended -->
+      
     <!-- Header Started -->
     <header class="container-fluid p-0">
         <div class="circle-bg">
@@ -2566,6 +2572,11 @@
     dark2.onclick = function(){
         document.body.classList.toggle("dark-mode")
     }
+    var preloder = document.getElementById("preloader");
+
+window.addEventListener("load", function () {
+  preloder.style.display = "none";
+});
 </script>
 
 </html>
