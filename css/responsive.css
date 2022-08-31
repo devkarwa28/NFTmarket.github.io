@@ -214,6 +214,7 @@
     padding: 8px 6px;
     font-size: 13px;
     text-align: center;
+    justify-content: center;
   }
 
   .card-time {
@@ -598,7 +599,7 @@
   }
 
   .section8 {
-    padding: 60px 0px;
+    padding: 60px 0px !important;
   }
 
   .footer1-content {
@@ -723,6 +724,12 @@
     height: 40px;
     margin-right: 16px;
   }
+  .eye-btn2 {
+    border: 0px;
+    color: black;
+    background-color: transparent;
+    margin-left: 8px;
+  }
 
   .nav-sm h5 img {
     width: 175px;
@@ -733,7 +740,7 @@
   .nav-sm ul {
     padding: 0px;
   }
-
+  
   .nav-sm ul li {
     margin: 16px 0px;
   }
@@ -1080,6 +1087,7 @@
   .footer2-content ul {
     margin: auto;
     margin-top: 32px;
+    width: fit-content;
   }
 
   .footer2-content ul li {

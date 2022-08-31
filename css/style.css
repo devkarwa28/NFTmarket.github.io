@@ -1311,7 +1311,6 @@ margin-top: 90px;
   background: url(../images/giphy-unscreen.gif)center no-repeat;
   height: 100%;
   width: 100%;
-  background-size: cover;
 }
 .sec7-pill-content h6{
   font-family: 'Sora',sans-serif;
@@ -1478,6 +1477,10 @@ margin-bottom: 69px;
 }
 .social-media img{
   margin-right: 25px;
+  transition: 0.5s;
+}
+.social-media img:hover{
+  transform: translateY(-5px) scale(1.1);
 }
 .footer3-content{
   border: 1px solid var(--border);
