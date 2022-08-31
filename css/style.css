@@ -1373,6 +1373,16 @@ color: #7780A1;
   height: 89px;
   text-align: center;
 }
+.section8 span{
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #7780A1;   
+}
 /* .section8 .item{
   width: 89px !important;
   height: 89px !important;
