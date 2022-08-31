@@ -688,6 +688,9 @@
     width: 25%;
     font-size: 15px;
   }
+  footer h1{
+    font-size: 9px;
+  }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 992px) {
