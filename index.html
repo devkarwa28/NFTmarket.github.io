@@ -106,7 +106,7 @@
         </div>
         <!-- nav-bar sm end -->
 
-        <nav class="nav-xxl d-lg-none d-xl-flex" id="sticky-bar">
+        <nav class="nav-xxl d-lg-none d-xl-flex" id="sticky-bar1">
             <img src="images/Logo.svg" alt="" srcset="" class="logo">
             <ul class="p-0 d-flex mb-0">
                 <li><a href="">Auctions</a></li>
@@ -2552,6 +2552,17 @@
     // sticky bar
     window.addEventListener("scroll", function () {
         var navbar = document.getElementById('sticky-bar');
+
+        if (window.pageYOffset >= 100) {
+            navbar.classList.add('sticky');
+        }
+        else {
+            navbar.classList.remove('sticky');
+            navbar.style.background = "#ffffff";
+        }
+    });
+    window.addEventListener("scroll", function () {
+        var navbar = document.getElementById('sticky-bar1');
 
         if (window.pageYOffset >= 100) {
             navbar.classList.add('sticky');

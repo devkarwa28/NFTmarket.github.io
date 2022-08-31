@@ -130,6 +130,9 @@ header{
 .nav-sm{
   display: none;
 }
+nav{
+  padding-bottom: 33px;
+}
 nav ul {
   margin-left: 190px;
   margin-top: 48px;
@@ -221,7 +224,7 @@ nav ul li:hover a::after {
 .header-content {
   margin: auto;
   width: 837px;
-  padding-top: 203px;
+  padding-top: 170px;
 }
 .header-content h2 {
   font-family: "Inter", sans-serif;
@@ -362,6 +365,7 @@ nav ul li:hover a::after {
   top: 0px;
   left: 0px;
   z-index: 2;
+  transition: 1s;
 }
 .section1 {
   padding-top: 65px;
@@ -1559,3 +1563,4 @@ color: #2A27C9;
 	opacity: 1;
 	height: 600% !important;
 } */
+
